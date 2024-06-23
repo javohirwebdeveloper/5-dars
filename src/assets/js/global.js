@@ -1,2 +1,0 @@
-import{f as e}from"./index.e24f4ad1.js";const t=e("globalId",{state:()=>({loading:!0}),actions:{async openLoad(o){o?this.loading=!1:this.loading=!0}}});export{t as u};
-//# sourceMappingURL=global.170671ce.js.map
