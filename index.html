@@ -20,7 +20,13 @@
     <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
     <script src="https://mediafiles.botpress.cloud/6bf245b0-a92c-44f8-ab18-1ee47491bd03/webchat/config.js"
       defer=""></script>
-    <script type="module" crossorigin="" src="./src/assets/js/index.js"></script>
+    <script type="module">
+      import RefreshRuntime from "/@react-refresh"
+      RefreshRuntime.injectIntoGlobalHook(window)
+      window.$RefreshReg$ = () => { }
+      window.$RefreshSig$ = () => (type) => type
+      window.__vite_plugin_react_preamble_installed__ = true
+    </script>
     <script type="text/javascript">
         (function (m, e, t, r, i, k, a) {
           m[i] =
