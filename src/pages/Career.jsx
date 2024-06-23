@@ -10,7 +10,7 @@ const Career = () => {
         AOS.init();
       }, [])
   return (
-    
+     
     <div id="app" data-v-app="">
 
   <div>
